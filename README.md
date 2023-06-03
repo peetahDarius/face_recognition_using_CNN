@@ -1,8 +1,8 @@
-create a directory called data that will be used to store the training dataset[The more the model is trained, the more accurate it becomes]
+Create a directory called data that will be used to store the training dataset[The more the model is trained, the more accurate it becomes]
 
 ++++++++++++++++++++++ How it Works +++++++++++++++++++
 
-1.Generate dataset function: This is the function that automatically generates the dataset that will
+1. Generate dataset function: This is the function that automatically generates the dataset that will
 be used to train the learning model. This function opens the camera detects a person’s face and
 takes 100 images of a person, crops them and stores them in a directory. Before it stores the
 images into the directory, it first changes the images into gray scale images. The images are stored
